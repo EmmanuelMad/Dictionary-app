@@ -1,0 +1,20 @@
+MERGE SORT ALGORITHM
+====================
+
+left_arr = [20,40,10]  right_arr = [30,50,15]   sorted_arr=[20,40,10]
+						left = [30] right=[15]
+							   l++        r++
+						sorted_arr=[15]
+                 l++                     r++
+if(left_arr[left_idx] < right_arr[right_idx]){
+	sorted_arr.push(left_arr[left_idx])
+	left_idx = left_idx + 1
+}else{
+	sorted_arr.push(right_arr[right_idx])
+	right_idx = right_idx + 1
+}
+left_idx = 0
+right_idx = 0
+sort_arr = sort_arr.concat(left_arr.slice(left_index))
+sort_arr = sort_arr.concat(right_arr.slice(right_index))
+return sorted_arr

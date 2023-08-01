@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: silver; */
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: silver;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.temp_box{
+    height: 9%;
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+.celsius{
+    height: 20px;
+    width: 250px;
+}
+.kelvin{
+    height: 20px;
+    width: 250px;
+}
+.fahrenheit{
+    height: 20px;
+    width: 250px;
+}
+.convert_btn{
+    border-style: dashed;
+    width: 150px;
+    height: 32px;
+    cursor: pointer;
+}

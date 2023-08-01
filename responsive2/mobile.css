@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin-top: 0;
+}
+
+/* .container{ */
+    /* width: 100vw; */
+    /* height: 100vh; */
+    /* background-color: burlywood; */
+/* } */
+
+.banner1{
+    background-color: aquamarine;
+    width: 470px;
+    height: 250px;
+    margin-top: 40px;
+}
+
+.banner2{
+    background-color: rgb(149, 57, 24);
+    width: 470px;
+    height: 250px;
+    margin-top: 40px;
+}
+
+.banner3{
+    background-color: rgba(99, 101, 100, 0.484);
+    width: 470px;
+    height: 250px;
+    margin-top: 40px;
+}
+
+.text{
+    margin-top: 5px;
+}
+
+.account{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.title{
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width:768px){
+    .wrapper{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* background-color: coral; */
+    }
+    .content{
+        flex-basis: 45%;
+    }
+}
+
+@media screen and (min-width:992px){
+    .content{
+        flex-basis: 31%;
+    }
+}
